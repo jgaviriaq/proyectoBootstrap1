@@ -1,0 +1,135 @@
+.justificacion{
+    text-align: justify;
+}
+ 
+ header{
+   background-color: black;
+  
+}
+
+header h1{
+    color: white;
+    
+}
+
+.widget{
+    background-color: #cccccc;
+  }
+
+main h2{
+    margin-top: 30px;
+}
+
+main h3{
+    font-size: 26px;
+}
+
+a {
+   margin-right:22px; 
+   
+   }
+
+   #menu a:hover{
+        background: rgb(16,75,143);
+        cursor: pointer;
+        color : white;
+      
+   }
+
+   #menu1 a:hover{
+    background: rgb(16,75,143);
+    cursor: pointer;
+    color : white;
+  }
+
+  #menu2 a:hover{
+    background: rgb(16,75,143);
+    cursor: pointer;
+    color : white;
+  
+}
+
+.borde{
+    border: 2px solid black;
+    margin: 52px;
+}
+
+.separacion{
+        justify-content: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
+         }
+
+       
+  footer {
+      margin-top: 30px;
+      background-color: #444444;
+      color: white;
+      padding: 30px;
+  }
+
+  footer p {
+      text-align: center;
+    }
+
+@media screen and (max-width: 768px){
+
+    
+    .dimensiones{
+        float: right;
+    } 
+
+    main h2,h3{
+        text-align: center;
+       
+    }
+    
+    .widget{
+        background-color: white;
+      }
+
+    main h2{
+        margin-top: 15px;
+    }
+
+    .centralizado{
+        text-align: justify;
+        
+    }
+   
+    .borde{
+        border: none;
+        margin: 3px;
+    }
+    
+    .separacion{
+        justify-content: center;
+        margin-top: 3px;
+        
+         }
+
+     #menu a:hover{
+        background: rgb(16,75,143);
+        cursor: pointer;
+        color : white;
+     }
+
+     #menu1 a:hover{
+        background: rgb(16,75,143);
+        cursor: pointer;
+        color : white;
+     }
+
+     #menu2 a:hover{
+        background: rgb(16,75,143);
+        cursor: pointer;
+        color : white;
+     }
+
+     .centrado{
+         padding-right: 10px;
+         padding-left: 10px;
+         margin: 0;
+         text-align: center;
+     }
+}
